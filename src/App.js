@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 
 import Header from './components/header';
-import Section1 from './components/hero';
+import Hero from './components/hero';
 import Statement from './components/statement';
-import Section2 from './components/body';
+import Body from './components/body';
 import Service from './components/services';
 import Footer from './components/footer';
 
@@ -12,9 +12,9 @@ function App() {
    return (
       <div>
          <Header />
-         <Section1 />
+         <Hero />
          <Statement />
-         <Section2 />
+         <Body />
          <Service />
          <Footer />
       </div>
